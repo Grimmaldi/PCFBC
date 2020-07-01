@@ -3,19 +3,32 @@ a, a:hover {
     font: inherit;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
 }
 
-nav {
-    justify-items: space-evenly;
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-menu {
+    display: grid;
+    justify-items: end;
+    align-items: center;
 }
 
 nav li {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #184f98;
     display: inline-block;
     list-style: none;
     font-weight: bolder;
+    margin: 0px 5px;
 }
 
 .important-image {
