@@ -1,47 +1,73 @@
-a, a:hover {
-    text-decoration: none;
-    font: inherit;
+html {
+  margin: 0px 30px;
+  font-family: "Rubik", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+a,
+a:hover {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Eczar", serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75em;
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto 1fr;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+
+li {
+  margin: 10px 0px;
 }
 
 .nav-menu {
-    display: grid;
-    justify-items: end;
-    align-items: center;
+  display: grid;
+  justify-items: end;
+  align-items: center;
+  margin-right: 15px;
 }
 
 nav li {
-    font-family: 'Cinzel Decorative', cursive;
-    color: #184f98;
-    display: inline-block;
-    list-style: none;
-    font-weight: bolder;
-    margin: 0px 5px;
+  font-family: "Eczar", serif;
+  color: black;
+  display: inline-block;
+  list-style: none;
+  font-size: 1.3em;
+  margin: 0px 5px;
 }
 
 .important-image {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
 }
 
 .important-image img {
-    box-shadow: 10px 10px 10px lightslategray;
+  box-shadow: 10px 10px 10px lightslategray;
 }
 
 #calendar {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
